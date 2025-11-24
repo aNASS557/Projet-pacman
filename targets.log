@@ -1,0 +1,400 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Apr 22 16:11:17 2025
+
+# Variables
+
+# makefile (from 'Makefile', line 8)
+OBJ = $(SRC:.c=.o)
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 7)
+SRC = $(wildcard *.c)
+# environment
+define BASH_FUNC_scl%%
+() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+endef
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /net/netud/t/adalal/pg110-26111
+# environment
+MODULES_CMD = /usr/share/Modules/libexec/modulecmd.tcl
+# default
+MAKE_COMMAND := make
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+endef
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /net/netud/t/adalal/pg110-26111
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = derbidebsum
+# environment
+MAIL = /var/spool/mail/adalal
+# environment
+XDG_DATA_DIRS = /net/netud/t/adalal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+MODULES_RUN_QUARANTINE = LD_LIBRARY_PATH LD_PRELOAD
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+ 
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /net/netud/t/adalal/.config/Code/CachedData/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/lightdm/adalal/xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /net/netud/t/adalal/pg110-26111
+# environment
+define BASH_FUNC_module%%
+() {  local _mlredir=0;
+ if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then
+ if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then
+ _mlredir=0;
+ else
+ if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then
+ _mlredir=1;
+ fi;
+ fi;
+ fi;
+ case " $@ " in 
+ *' --no-redirect '*)
+ _mlredir=0
+ ;;
+ *' --redirect '*)
+ _mlredir=1
+ ;;
+ esac;
+ if [ $_mlredir -eq 0 ]; then
+ _module_raw "$@";
+ else
+ _module_raw "$@" 2>&1;
+ fi
+}
+endef
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXL5CW5c/agent.7987
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 1000
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = xfce
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+CONDA_SHLVL = 0
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 65077
+# environment
+KRB5CCNAME = KCM:
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/7987,unix/unix:/tmp/.ICE-unix/7987
+# automatic
+*F = $(notdir $*)
+# environment
+MODULEPATH = /etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/253592/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 6)
+EXEC = pacman
+# environment
+__MODULES_LMINIT = module use --append /usr/share/Modules/modulefiles:module use --append /etc/modulefiles:module use --append /usr/share/modulefiles
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"fr-fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+define BASH_FUNC_ml%%
+() {  module ml "$@"
+}
+endef
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/share/Modules/bin:/usr/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
+# default
+MAKEFILES := 
+# environment
+MODULESHOME = /usr/share/Modules
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 4)
+LDLIBS = $(shell pkg-config --libs sdl2 SDL2_image)
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = xfce
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = adalal
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+HISTCONTROL = ignoredups
+# environment
+DISPLAY = :0
+# environment
+USER = adalal
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 3)
+LDFLAGS = $(shell pkg-config --libs sdl2 SDL2_image)
+# environment
+which_declare = declare -f
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 65077
+# environment
+SSH_AGENT_PID = 8031
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/253592
+# makefile (from 'Makefile', line 2)
+CFLAGS = -Wall -Werror -std=c99 $(shell pkg-config --cflags sdl2 SDL2_image)
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /net/netud/t/adalal
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/253592/vscode-c7dda805-1.84-main.sock
+# environment
+XDG_SESSION_ID = 4
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+define BASH_FUNC__module_raw%%
+() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";
+ _mlstatus=$?;
+ return $_mlstatus
+}
+endef
+# default
+SUFFIXES := 
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/adalal
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 1)
+CC = gcc
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+GDMSESSION = xfce
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=8/148=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 49, inode 51042186): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+pacman.c:
+#  Implicit rule search has been done.
+#  Last modified 2025-04-22 16:06:49.90415
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-04-15 14:47:18.920391
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	rm -f $(OBJ) $(EXEC)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: pacman
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+# 'override' directive
+pacman.o: .SHELLSTATUS := 0
+pacman.o: pacman.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'pacman'
+#  Last modified 2025-04-22 15:49:43.616088
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := pacman.o
+# automatic
+# * := pacman
+# automatic
+# < := pacman.c
+# automatic
+# + := pacman.c
+# automatic
+# % := 
+# automatic
+# ^ := pacman.c
+# automatic
+# ? := pacman.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=2/19=11%
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+# Not a target:
+ghosts.c:
+#  Implicit rule search has been done.
+#  Last modified 2025-04-15 15:18:25.986795
+#  File has been updated.
+#  Successfully updated.
+
+pacman: ghosts.o pacman.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+#  recipe to execute (from 'Makefile', line 13):
+	$(CC) -o $@ $^ $(LDFLAGS) $(LDLIBS)
+
+ghosts.o: ghosts.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ghosts'
+ 
+#  Last modified 2025-04-22 15:49:43.311539
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/31=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 234 B / avg = 8 B
+# current buf: size = 8162 B / used = 234 B / count = 28 / avg = 8 B
+
+# strcache performance: lookups = 44 / hit rate = 36%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=0/44=0%
+# Finished Make data base on Tue Apr 22 16:11:17 2025
+
+ 

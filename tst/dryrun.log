@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/net/netud/t/adalal/pg110-26111'
+ 
+gcc -o ghosts.o -c ghosts.c -Wall -Werror -std=c99 -I/usr/include/SDL2 -D_REENTRANT -DHWY_SHARED_DEFINE 
+ 
+gcc -o labyrinthe.o -c labyrinthe.c -Wall -Werror -std=c99 -I/usr/include/SDL2 -D_REENTRANT -DHWY_SHARED_DEFINE 
+gcc -o pacman.o -c pacman.c -Wall -Werror -std=c99 -I/usr/include/SDL2 -D_REENTRANT -DHWY_SHARED_DEFINE 
+gcc -o pacman ghosts.o labyrinthe.o pacman.o -lSDL2_image -lSDL2  -lSDL2_image -lSDL2 
+make: Leaving directory '/net/netud/t/adalal/pg110-26111'
+ 
